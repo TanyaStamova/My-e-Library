@@ -1,0 +1,175 @@
+/* style.css */
+body{
+  background: #FFFFFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: #581F18;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+h2 {
+  color: #606D5D;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+  color: #01161E;
+  font-size: 17px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #01161E;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #AEC3B0;
+}
+
+
+#nav-bar{
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+  background: #1C110A;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-bar-links a {
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+ }
+
+.nav-bar-links a:hover {
+  color: #5cb85c;
+}
+
+#nav-bar p {
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.logo i {
+  font-size: 30px;
+  color: white;
+}
+
+.logo a:hover {
+  color: #5cb85c;
+}
+
+
+#banner{
+  text-align: center;
+  background-image: url("https://picsum.photos/1400/600/?image=24");
+  background-size: cover;
+  background-position: center; 
+  padding: 80px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+  color: white;
+  font-size: 60px;
+}
+
+#banner p {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#banner a {
+  color: white;
+  font-size: 15px;
+}
+
+#top-text{
+  background-color: #e7efe7;
+  background-size: cover;
+  padding: 15px;
+}
+
+#top-text p {
+  font-size: 20px;
+  text-align: center;
+}
+
+#right-place{
+  font-weight: bold;
+}
+
+
+.card{
+  padding: 30px;
+  margin: 20px 15px 50px;  
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px #e7efe7;
+  text-align: center;
+}
+
+.icon{
+  margin: 50px;
+  padding: 200px;
+}
+
+#daily-quote{
+  background-color: #e7efe7;
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+#daily-quote-pic{
+  float: left;
+  margin: 0px 20px 10px;
+  border-radius: 7px;
+}
+
+#daily-quote-text{
+  margin-right: 30px;
+  text-align: justify;
+}
+
+#book-name-author{
+  text-align: right;
+  margin-right: 30px;
+}
+
+#footer{
+  padding: 15px;
+  background: #1C110A;
+  color: #581F18;
+  clear: both;
+  text-align: center;
+}
+
+#footer p {
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#footer a {
+  color: white;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: #5cb85c;
+}
